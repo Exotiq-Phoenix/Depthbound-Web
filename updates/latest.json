@@ -1,0 +1,12 @@
+{
+  "version": "0.7.0-dev",
+  "channel": "Development",
+  "title": "V7.0 Player Experience Foundation",
+  "summary": "Adaptive HUD, Context Wheel V2 direction, richer inventory interactions, traversal, Arcana input work and presentation architecture.",
+  "gameDownload": "",
+  "launcherDownload": "",
+  "sha256": "",
+  "archiveSize": 0,
+  "publishedUtc": "",
+  "minimumLauncherVersion": "0.1.0"
+}

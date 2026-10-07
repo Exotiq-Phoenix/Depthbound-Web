@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#071522" />
+  <title>Depthbound</title>
+  <meta name="description" content="Depthbound — a systems-heavy action RPG built around exploration, procedural dungeons, deep character progression and near-open-ended Arcana." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top"><span>DEPTHBOUND</span><small>ENTER THE DEPTHS</small></a>
+    <nav>
+      <a href="#game">Game</a><a href="#arcana">Arcana</a><a href="#development">Development</a><a href="#downloads">Downloads</a><a href="#docs">Docs</a>
+    </nav>
+    <a class="button ghost" href="#downloads">Get the latest build</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ACTION RPG • PROCEDURAL DUNGEONS • SYSTEMIC MAGIC</p>
+        <h1>Explore. Master. Unravel the Depths.</h1>
+        <p class="lead">Depthbound is an evolving action RPG centered on deliberate combat, persistent exploration, deep progression and an Arcana system where techniques emerge from reusable magical rules instead of a finite spell list.</p>
+        <div class="actions"><a class="button primary" href="#downloads">Download / Launcher</a><a class="button" href="#development">Latest update</a></div>
+        <div id="buildStatus" class="build-status">Checking latest build…</div>
+      </div>
+      <div class="hero-card"><img src="assets/hud-wireframe.png" alt="Depthbound HUD and gameplay state wireframes" /></div>
+    </section>
+
+    <section id="game" class="grid-section">
+      <div class="section-heading"><p class="eyebrow">THE GAME</p><h2>A world of connected systems.</h2></div>
+      <div class="cards three">
+        <article><h3>Explore</h3><p>Persistent dungeon discovery, world mapping, traversal, secrets, cities and a growing surface world.</p></article>
+        <article><h3>Master</h3><p>Weapons, physical training, mana development, techniques, equipment, crafting, perception and specialized builds.</p></article>
+        <article><h3>Adapt</h3><p>Combat, Arcana, traversal and contextual tools share one mode-aware input and UI ecosystem.</p></article>
+      </div>
+    </section>
+
+    <section id="arcana" class="split">
+      <div>
+        <p class="eyebrow arcane">ARCANA</p><h2>Magic is a language, not a list.</h2>
+        <p>Constructs combine source, geometry, movement, intensity, stability, targeting, duration, behavior, domain and secondary effects. Discovery is not mastery: better control, efficiency, output and perception expand what the same magical principles can become.</p>
+        <ul class="feature-list"><li>Normal and mass telekinesis</li><li>Construct-driven Fire, Water, Lightning, Earth, Arcane and more</li><li>Staves and foci that genuinely alter casting behavior</li><li>Hybridization, rituals, barriers, traps, enchantments and player-authored techniques</li></ul>
+      </div>
+      <div class="panel"><h3>Mana development</h3><div class="step">Dormant</div><div class="step">Sensation / Stirring</div><div class="step">Awareness</div><div class="step">Circulation / Control</div><div class="step">Output / External Flow</div><div class="step">Shaping</div><div class="step strong">Stable Casting</div></div>
+    </section>
+
+    <section id="development" class="grid-section">
+      <div class="section-heading"><p class="eyebrow">DEVELOPMENT</p><h2>Built in public, updated continuously.</h2></div>
+      <div class="development-layout"><img src="assets/ui-systems.png" alt="Depthbound menus and system wireframes" /><div><h3 id="latestTitle">Latest Update</h3><p id="latestNotes">Loading update information…</p><a id="changelogLink" class="button" href="changelog.html">Full changelog</a></div></div>
+    </section>
+
+    <section id="downloads" class="downloads">
+      <p class="eyebrow">DOWNLOADS</p><h2>Always know what build you are on.</h2>
+      <div class="cards three">
+        <article><h3>Game</h3><p>Download a full build or use the launcher to stay current.</p><a id="gameDownload" class="button primary disabled" href="#">Build not published yet</a></article>
+        <article><h3>Launcher</h3><p>Version checking, verified updates, channels, news, mods/tools and one-click launch.</p><a id="launcherDownload" class="button disabled" href="#">Launcher not published yet</a></article>
+        <article><h3>Update Channels</h3><p><b>Live</b> for stable public builds. <b>Preview</b> and <b>Development</b> can be exposed later.</p></article>
+      </div>
+    </section>
+
+    <section id="docs" class="grid-section">
+      <div class="section-heading"><p class="eyebrow">DOCUMENTATION</p><h2>Systems, controls and update information.</h2></div>
+      <div class="cards three"><article><h3>Controls</h3><p>Mode-aware bindings, Arcana layers, telekinesis controls and rebinding.</p></article><article><h3>Arcana Guide</h3><p>Mana development, constructs, domains, discovery and mastery.</p></article><article><h3>Modding / Tools</h3><p>Launcher integration, future mod management and developer tools.</p></article></div>
+    </section>
+  </main>
+
+  <footer><span>DEPTHBOUND</span><span>GitHub Pages-ready static site</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
